@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="porshe718">
+        <methods>
+          <include name="verify_PDK_PCCB_Price"/>
+          <include name="tearDown"/>
+          <include name="verify_Rim_Price"/>
+          <include name="setUp"/>
+          <include name="verify_Power_Seat_Price"/>
+          <include name="verify_Interior_Carbon_Fiber_Price"/>
+          <include name="verify_Color_Price"/>
+          <include name="verify_Base_Price"/>
+          <include name="verify_Equip_Price_Is_Zero"/>
+          <include name="verify_Initial_Total_Price"/>
+        </methods>
+      </class> <!-- porshe718 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
